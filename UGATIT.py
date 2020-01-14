@@ -45,6 +45,7 @@ class UGATIT(object) :
         self.img_ch = args.img_ch
 
         self.device = args.device
+        print('[Info] device: {}'.format(self.device))
         self.benchmark_flag = args.benchmark_flag
         self.resume = args.resume
 
